@@ -25,6 +25,7 @@
                                     <color key="titleColor" systemColor="systemBlueColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="buttonPressed2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ILM-3T-iiU"/>
                                     <segue destination="LTg-Pf-w4U" kind="show" id="qOF-wK-qL7"/>
                                 </connections>
                             </button>
@@ -36,10 +37,11 @@
                                     <color key="titleColor" systemColor="systemRedColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="buttonPressed1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LPX-j7-D9U"/>
                                     <segue destination="GXS-hu-Ro4" kind="show" id="l62-nY-cRn"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJT-Jo-4zs">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJT-Jo-4zs">
                                 <rect key="frame" x="110" y="167" width="154" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -54,6 +56,7 @@
                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="buttonPressed3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sfx-n8-r7q"/>
                                     <segue destination="0Oc-tc-WIt" kind="show" id="ojP-yz-fXh"/>
                                 </connections>
                             </button>
@@ -61,6 +64,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="mainLabel" destination="NJT-Jo-4zs" id="EN3-n3-a8W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QTl-Pi-huJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="973.60000000000002" y="-594.15292353823088"/>
+            <point key="canvasLocation" x="974" y="-610"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="7mh-VN-Blp">

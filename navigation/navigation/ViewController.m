@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
@@ -13,10 +14,23 @@
 
 @implementation ViewController
 
+@synthesize mainLabel;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)buttonPressed1:(id)sender {
+    [mainLabel setText:@"Fire"];
+}
+
+- (IBAction) buttonPressed2:(id) sender {
+    [mainLabel setText:@"Water"];
+}
+
+- (IBAction) buttonPressed3:(id) sender {
+    [mainLabel setText:@"Sun"];
+}
 
 @end
