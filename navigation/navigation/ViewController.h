@@ -9,7 +9,5 @@
 
 @interface ViewController : UIViewController
 
-@property (nonatomic, strong) IBOutlet UILabel *mainLabel;
-
 @end
 

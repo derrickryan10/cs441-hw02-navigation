@@ -15,6 +15,12 @@
 		49289B2325E5A526000DBB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49289B2125E5A526000DBB30 /* LaunchScreen.storyboard */; };
 		49289B2625E5A526000DBB30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49289B2525E5A526000DBB30 /* main.m */; };
 		49289B2F25E5A559000DBB30 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 49289B2E25E5A559000DBB30 /* ViewController2.m */; };
+		4996B0B325E9470500994CE5 /* Fire.m in Sources */ = {isa = PBXBuildFile; fileRef = 4996B0B225E9470500994CE5 /* Fire.m */; };
+		4996B0B625E947C300994CE5 /* Fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4996B0B525E947C300994CE5 /* Fire.jpg */; };
+		4996B0BA25E94B9A00994CE5 /* Water.m in Sources */ = {isa = PBXBuildFile; fileRef = 4996B0B925E94B9A00994CE5 /* Water.m */; };
+		4996B0BD25E94BCA00994CE5 /* Water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4996B0BC25E94BCA00994CE5 /* Water.jpg */; };
+		4996B0C125E94CF200994CE5 /* Sun.m in Sources */ = {isa = PBXBuildFile; fileRef = 4996B0C025E94CF200994CE5 /* Sun.m */; };
+		4996B0C425E94D1E00994CE5 /* Sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4996B0C325E94D1E00994CE5 /* Sun.jpg */; };
 		49E97D7525E6A39F006AF6B1 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E97D7425E6A39F006AF6B1 /* ViewController1.m */; };
 		49E97D7925E6A405006AF6B1 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E97D7825E6A405006AF6B1 /* ViewController3.m */; };
 /* End PBXBuildFile section */
@@ -34,6 +40,15 @@
 		49289B2525E5A526000DBB30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49289B2D25E5A559000DBB30 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		49289B2E25E5A559000DBB30 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		4996B0B125E9470500994CE5 /* Fire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fire.h; sourceTree = "<group>"; };
+		4996B0B225E9470500994CE5 /* Fire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fire.m; sourceTree = "<group>"; };
+		4996B0B525E947C300994CE5 /* Fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fire.jpg; sourceTree = "<group>"; };
+		4996B0B825E94B9A00994CE5 /* Water.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Water.h; sourceTree = "<group>"; };
+		4996B0B925E94B9A00994CE5 /* Water.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Water.m; sourceTree = "<group>"; };
+		4996B0BC25E94BCA00994CE5 /* Water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Water.jpg; sourceTree = "<group>"; };
+		4996B0BF25E94CF200994CE5 /* Sun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sun.h; sourceTree = "<group>"; };
+		4996B0C025E94CF200994CE5 /* Sun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sun.m; sourceTree = "<group>"; };
+		4996B0C325E94D1E00994CE5 /* Sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sun.jpg; sourceTree = "<group>"; };
 		49E97D7325E6A39F006AF6B1 /* ViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		49E97D7425E6A39F006AF6B1 /* ViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		49E97D7725E6A405006AF6B1 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
@@ -82,7 +97,16 @@
 				49289B2E25E5A559000DBB30 /* ViewController2.m */,
 				49E97D7725E6A405006AF6B1 /* ViewController3.h */,
 				49E97D7825E6A405006AF6B1 /* ViewController3.m */,
+				4996B0B125E9470500994CE5 /* Fire.h */,
+				4996B0B225E9470500994CE5 /* Fire.m */,
+				4996B0B525E947C300994CE5 /* Fire.jpg */,
 				49289B1C25E5A524000DBB30 /* Main.storyboard */,
+				4996B0BF25E94CF200994CE5 /* Sun.h */,
+				4996B0C025E94CF200994CE5 /* Sun.m */,
+				4996B0C325E94D1E00994CE5 /* Sun.jpg */,
+				4996B0B825E94B9A00994CE5 /* Water.h */,
+				4996B0B925E94B9A00994CE5 /* Water.m */,
+				4996B0BC25E94BCA00994CE5 /* Water.jpg */,
 				49289B1F25E5A526000DBB30 /* Assets.xcassets */,
 				49289B2125E5A526000DBB30 /* LaunchScreen.storyboard */,
 				49289B2425E5A526000DBB30 /* Info.plist */,
@@ -147,7 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4996B0C425E94D1E00994CE5 /* Sun.jpg in Resources */,
 				49289B2325E5A526000DBB30 /* LaunchScreen.storyboard in Resources */,
+				4996B0BD25E94BCA00994CE5 /* Water.jpg in Resources */,
+				4996B0B625E947C300994CE5 /* Fire.jpg in Resources */,
 				49289B2025E5A526000DBB30 /* Assets.xcassets in Resources */,
 				49289B1E25E5A524000DBB30 /* Main.storyboard in Resources */,
 			);
@@ -160,13 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4996B0C125E94CF200994CE5 /* Sun.m in Sources */,
 				49289B1B25E5A524000DBB30 /* ViewController.m in Sources */,
 				49289B1525E5A524000DBB30 /* AppDelegate.m in Sources */,
 				49E97D7525E6A39F006AF6B1 /* ViewController1.m in Sources */,
 				49289B2F25E5A559000DBB30 /* ViewController2.m in Sources */,
 				49289B2625E5A526000DBB30 /* main.m in Sources */,
 				49289B1825E5A524000DBB30 /* SceneDelegate.m in Sources */,
+				4996B0BA25E94B9A00994CE5 /* Water.m in Sources */,
 				49E97D7925E6A405006AF6B1 /* ViewController3.m in Sources */,
+				4996B0B325E9470500994CE5 /* Fire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

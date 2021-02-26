@@ -25,7 +25,6 @@
                                     <color key="titleColor" systemColor="systemBlueColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPressed2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ILM-3T-iiU"/>
                                     <segue destination="LTg-Pf-w4U" kind="show" id="qOF-wK-qL7"/>
                                 </connections>
                             </button>
@@ -37,8 +36,7 @@
                                     <color key="titleColor" systemColor="systemRedColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPressed1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LPX-j7-D9U"/>
-                                    <segue destination="GXS-hu-Ro4" kind="show" id="l62-nY-cRn"/>
+                                    <segue destination="GXS-hu-Ro4" kind="show" id="gsd-g9-w6j"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick a Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJT-Jo-4zs">
@@ -56,7 +54,6 @@
                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPressed3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sfx-n8-r7q"/>
                                     <segue destination="0Oc-tc-WIt" kind="show" id="ojP-yz-fXh"/>
                                 </connections>
                             </button>
@@ -64,13 +61,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <connections>
-                        <outlet property="mainLabel" destination="NJT-Jo-4zs" id="EN3-n3-a8W"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="ZZV-vS-9ze"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-50" y="246"/>
+            <point key="canvasLocation" x="-580" y="463"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="G5l-wM-n9O">
@@ -85,6 +80,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="💦"/>
+                                <connections>
+                                    <segue destination="P1Q-c0-nRY" kind="show" id="fpw-UX-2hZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="j6a-Z5-KSI"/>
@@ -94,7 +92,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MVt-Mw-YoX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="974" y="98"/>
+            <point key="canvasLocation" x="974" y="136"/>
+        </scene>
+        <!--Water-->
+        <scene sceneID="4DY-5U-t1e">
+            <objects>
+                <viewController id="P1Q-c0-nRY" customClass="Water" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JuO-Zw-Z21">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Water.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nL0-oP-vK0">
+                                <rect key="frame" x="-73" y="-199" width="575" height="1023"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jbO-un-vza"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fDd-A9-V3V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5wU-py-Rtz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918" y="135"/>
         </scene>
         <!--View Controller1-->
         <scene sceneID="GNX-xR-8Ca">
@@ -109,6 +129,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🔥"/>
+                                <connections>
+                                    <segue destination="f3b-5M-AqG" kind="show" id="8co-6P-2es"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lmF-N0-wn0"/>
@@ -118,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QTl-Pi-huJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="974" y="-610"/>
+            <point key="canvasLocation" x="974" y="-689"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="7mh-VN-Blp">
@@ -133,6 +156,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="☀️"/>
+                                <connections>
+                                    <segue destination="22p-Ch-DYh" kind="show" id="xn9-g4-mAg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rtP-ix-dP3"/>
@@ -142,10 +168,60 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="381-xe-IZm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="973.60000000000002" y="778.56071964017997"/>
+            <point key="canvasLocation" x="974" y="995"/>
+        </scene>
+        <!--Fire-->
+        <scene sceneID="8qu-qr-15I">
+            <objects>
+                <viewController id="f3b-5M-AqG" customClass="Fire" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nPc-i6-C1P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Fire.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yXH-M7-mWB">
+                                <rect key="frame" x="-30" y="-235" width="491" height="1066"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XMF-LW-TMu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gAe-aj-NJf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FM0-Qr-DBw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1917.5999999999999" y="-690.40479760119945"/>
+        </scene>
+        <!--Sun-->
+        <scene sceneID="Clm-dl-AQm">
+            <objects>
+                <viewController id="22p-Ch-DYh" customClass="Sun" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WOU-Br-9Kg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Sun.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4hX-f7-IgW">
+                                <rect key="frame" x="-52" y="-167" width="523" height="930"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZWa-BY-zoq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iEl-eX-OfV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y2w-HX-ChJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1917.5999999999999" y="994.45277361319347"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Fire.jpg" width="1125" height="2436"/>
+        <image name="Sun.jpg" width="640" height="1136"/>
+        <image name="Water.jpg" width="736" height="1308"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
